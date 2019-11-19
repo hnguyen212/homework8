@@ -8,7 +8,7 @@ export default class Board extends Component {
       />
     }
     render() {
-      return {
+      return (
         <div>
           <div className="border-row">
               {this.renderSquare(0)}
@@ -26,6 +26,7 @@ export default class Board extends Component {
               {this.renderSquare(8)}
           </div>
         </div>
-      }
+
+      )
     }
 }
